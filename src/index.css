@@ -1,0 +1,12 @@
+/* Ensure the app takes full height */
+html,
+body {
+  height: 100%;
+}
+
+/* Ionic app container */
+ion-app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
